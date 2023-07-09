@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/math-plus.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/math-minus.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css' rel='stylesheet'>
+    <title>Menu</title>
+</head>
+<body>
+    <section class="first-page" style="background: white;">
+        <nav>
+          <ul>
+            <li><a class="logo" href="index.html">MetaPizza</a></li>
+            <li class="dropdown_m"><a href="menu.html"  class="dropdown_b">Menu</a>
+              <div class="drop_content">
+                <a href="#pizza">Pizza</a>
+                <a href="#salads">Salads</a>
+                <a href="#sides">Sides</a>
+                <a href="#drinks">Drinks</a>
+              </div>
+            </li>
+            <li><a href="menu.html#your_order">Your Order</a></li>
+          </ul>
+        </nav>
+
+        <div class="head_wrap">
+            <div class="img_wrap">
+                <div class="banner">
+                    <h2>Slice into Perfection: Your Ultimate Pizza Adventure!</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu_nav">
+            <ul>
+                <li><a href="#pizza">Pizza</a></li>
+                <li><a href="#salads">Salads</a></li>
+                <li><a href="#sides">Sides</a></li>
+                <li><a href="#drinks">Drinks</a></li>
+            </ul>
+        </div>
+        <div class="insc_m">
+            <h1>Welcome to MetaPizza!</h1>
+        </div>
+    </section>
+    <div class="your_order" id="your_order">
+        <div class="order_bookmark">        
+            <h2 class="order_title">YOUR ORDER</h2>
+            <button class="order_buy">Buy Now</button>
+            <div class="cart_amount_wrap">
+                <h2 class="cart_qty_o">Qty:</h2>
+                <h2 class="cart_item_amount_o">0</h2>
+            </div>
+        </div>
+        <div class="order_wrap_new">
+
+
+            <div class="cart_wrap">
+  
+                <div class="cart_item_wrap">
+  
+  
+                  <div class="cart_item_e">
+                    <h1 class="">The cart is empty</h1>
+                  </div>
+
+  
+  
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <main>
+        <div class="menu-wrap">
+            <div class="pizza_section">
+                <h2 class="section_name" id="pizza">Pizza</h2>
+                <div class="pizza_grid_menu">
+
+
+                    <div class="grid_item" data-id="01">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/plate1.jpg" alt="pizza item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Veggie Supreme Pizza</h1>
+                            <h2 class="item_desc"> mozzarella cheese, bell peppers (red, green, and yellow), sliced mushrooms, black olives, red onion, spinach leaves</h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$16.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid_item" data-id="02">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/plate2.jpg"  alt="pizza item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">BBQ Chicken Pizza</h1>
+                            <h2 class="item_desc">BBQ sauce, mozzarella cheese, cooked chicken (shredded or diced), red onion, fresh cilantro leaves</h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$23.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid_item" data-id="03">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/plate3.jpg"  alt="pizza item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Mediterranean Delight</h1>
+                            <h2 class="item_desc"> mozzarella cheese, bell peppers, red onions, mushrooms, black olives, spinach, and fresh tomatoes</h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$29.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid_item" data-id="04">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/plate4.jpg"  alt="pizza item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Margherita Pizza</h1>
+                            <h2 class="item_desc">  tomato sauce, mozzarella cheese, fresh basil leaves</h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$25.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="grid_item" data-id="05">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/plate5.jpg"  alt="pizza item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Pepperoni Pizza</h1>
+                            <h2 class="item_desc"> mozzarella cheese, ham slices, pineapple chunks, red onion (optional)</h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$19.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="grid_item" data-id="06">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/pizza1.png"  alt="pizza item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Umami Harvest Delight</h1>
+                            <h2 class="item_desc"> Tomatoes, Sweet Paper, Bacon</h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$20.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="grid_item" data-id="07">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/pizza2.png"  alt="pizza item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Firecracker Meatza</h1>
+                            <h2 class="item_desc"> Pepperoni, Chili Paper, Bacon</h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$23.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="grid_item" data-id="08">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/pizza3.png"  alt="pizza item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Hawaiian Pizza</h1>
+                            <h2 class="item_desc"> Mozzarella, Pineapple, Ham, Bacon</h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$27.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="pizza_section">
+                <h2 class="section_name" id="salads">Salads</h2>
+                <div class="pizza_grid_menu">
+
+
+                    <div class="grid_item" data-id="09">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/salad1.jpg" alt="salad item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Caesar Salad</h1>
+                            <h2 class="item_desc"> Romaine lettuce, croutons, Parmesan cheese, Caesar dressing, and anchovies (optional) </h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$12.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid_item" data-id="10">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/salad2.jpg"  alt="salad item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">BGreek Salad</h1>
+                            <h2 class="item_desc">Romaine lettuce, cucumber, tomatoes, red onion, Kalamata olives, feta cheese, olive oil, lemon juice, dried oregano</h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$20.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid_item" data-id="11">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/salad3.jpg"  alt="salad item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Caprese Salad</h1>
+                            <h2 class="item_desc"> Fresh tomatoes, fresh mozzarella cheese, fresh basil leaves, virgin olive oil, balsamic glaze</h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$17.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+            <div class="pizza_section">
+                <h2 class="section_name" id="sides">Sides</h2>
+                <div class="pizza_grid_menu">
+
+
+                    <div class="grid_item" data-id="12">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/sides1.jpg" alt="side item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">French Fries</h1>
+                            <h2 class="item_desc">Potatoes, Vegetable oil, Salt </h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$7.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid_item" data-id="13">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/sides2.jpg"  alt="side item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Garlic Bread</h1>
+                            <h2 class="item_desc">Baguette,
+                                Butter,
+                                Garlic,
+                                Parsley,
+                                Parmesan cheese (optional)</h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$10.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid_item" data-id="14">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/sides3.jpg"  alt="side item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Coleslaw</h1>
+                            <h2 class="item_desc"> Cabbage,
+                                Carrots,
+                                Mayonnaise,
+                                Vinegar,
+                                Sugar</h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$12.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid_item" data-id="15">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/sides4.jpg"  alt="side item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Onion Rings</h1>
+                            <h2 class="item_desc"> Yellow or white onions,
+                                All-purpose flour,
+                                Bread crumbs,
+                                Egg,
+                                Milk</h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$9.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pizza_section">
+                <h2 class="section_name" id="drinks">Drinks</h2>
+                <div class="pizza_grid_menu">
+
+
+                    <div class="grid_item" data-id="16">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/drink1.jpg" alt="drink item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Coca-cola</h1>
+                            <h2 class="item_desc"></h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$4.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid_item" data-id="17">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/drink2.jpg"  alt="drink item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Orange juice</h1>
+                            <h2 class="item_desc"></h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$5.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid_item" data-id="18">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/drink3.jpg"  alt="drink item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Sprite</h1>
+                            <h2 class="item_desc"></h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$3.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid_item" data-id="19">
+                        <div class="item_img_wrap">
+                            <img class="product_img" src="images/drink4.jpg"  alt="drink item">
+                        </div>
+                        <div class="non_img_wrap">
+                            <h1 class="item_name">Coffee</h1>
+                            <h2 class="item_desc"></h2>
+                            <div class="btns_wrap">
+                                <h3 class="item_price">$6.00</h3>
+                                <div class="btns_wrap_inside">
+                                    <button class="btn_minus" data-action="minus"><i class="gg-math-minus"></i></button>
+                                    <span class="item_amount">0</span>
+                                    <button class="btn_plus" data-action="plus"><i class="gg-math-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="btn_add">
+                                <button class="add_item_button" data-cart>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> 
+            </div>
+
+
+        </div>
+    </main>
+
+    <script src="js/cartStatus.js"></script>
+    <script src="js/counter_02.js"></script>
+    <script src="js/cart_02.js"></script>
+</body>
+</html>
